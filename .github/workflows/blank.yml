@@ -35,5 +35,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           ls -l
-          docker built -t aws:braga . 
+          docker build -t aws:braga . 
           docker images
